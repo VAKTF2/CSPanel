@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Roblox Customer Service Panel",
+  "version": "1.0",
+  "description": "Customer Service & Moderation",
+  "permissions": [],
+  "host_permissions": [
+    "*://*.roblox.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.roblox.com/*"],
+      "js": [
+        "findTab.js",
+        "content.js",
+        "userAssetsTab.js"
+      ]
+    }
+  ]
+}
