@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Roblox Customer Service Panel",
-  "version": "1.0",
+  "version": "2.0",
   "description": "Customer Service & Moderation",
   "permissions": [],
   "host_permissions": [
@@ -13,6 +13,7 @@
       "js": [
         "findTab.js",
         "content.js",
+        "giftCardsTab.js",
         "userAssetsTab.js"
       ]
     }
